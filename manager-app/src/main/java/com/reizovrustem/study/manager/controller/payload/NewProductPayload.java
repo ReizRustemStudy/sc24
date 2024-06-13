@@ -1,5 +1,14 @@
 package com.reizovrustem.study.manager.controller.payload;
 
-public record NewProductPayload(String title, String details) {
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
+public record NewProductPayload(
+		
+		@NotNull
+		@Size(min = 3, max = 5)
+		String title, 
+		@Size(max = 1000)
+		String details) {
 
 }
