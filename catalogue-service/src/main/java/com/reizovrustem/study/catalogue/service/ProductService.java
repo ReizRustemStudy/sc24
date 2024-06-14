@@ -1,9 +1,9 @@
-package com.reizovrustem.study.manager.service;
+package com.reizovrustem.study.catalogue.service;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.reizovrustem.study.manager.entity.Product;
+import com.reizovrustem.study.catalogue.entity.Product;
 
 public interface ProductService {
 

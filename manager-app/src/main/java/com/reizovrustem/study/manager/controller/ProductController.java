@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.reizovrustem.study.catalogue.entity.Product;
+import com.reizovrustem.study.catalogue.service.ProductService;
 import com.reizovrustem.study.manager.controller.payload.UpdateProductPayload;
-import com.reizovrustem.study.manager.entity.Product;
-import com.reizovrustem.study.manager.service.ProductService;
 
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;

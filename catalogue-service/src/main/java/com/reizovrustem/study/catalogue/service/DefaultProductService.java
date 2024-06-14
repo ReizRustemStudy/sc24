@@ -1,4 +1,4 @@
-package com.reizovrustem.study.manager.service;
+package com.reizovrustem.study.catalogue.service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -6,8 +6,8 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.reizovrustem.study.manager.entity.Product;
-import com.reizovrustem.study.manager.repository.ProductRepository;
+import com.reizovrustem.study.catalogue.entity.Product;
+import com.reizovrustem.study.catalogue.repository.ProductRepository;
 
 import lombok.RequiredArgsConstructor;
 

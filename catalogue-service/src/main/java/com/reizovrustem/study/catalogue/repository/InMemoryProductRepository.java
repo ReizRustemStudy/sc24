@@ -1,4 +1,4 @@
-package com.reizovrustem.study.manager.repository;
+package com.reizovrustem.study.catalogue.repository;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -9,7 +9,7 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Repository;
 
-import com.reizovrustem.study.manager.entity.Product;
+import com.reizovrustem.study.catalogue.entity.Product;
 
 @Repository
 public class InMemoryProductRepository implements ProductRepository {

@@ -1,9 +1,9 @@
-package com.reizovrustem.study.manager.repository;
+package com.reizovrustem.study.catalogue.repository;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.reizovrustem.study.manager.entity.Product;
+import com.reizovrustem.study.catalogue.entity.Product;
 
 public interface ProductRepository {
 

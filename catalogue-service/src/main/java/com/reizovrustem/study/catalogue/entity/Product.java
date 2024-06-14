@@ -1,4 +1,4 @@
-package com.reizovrustem.study.manager.entity;
+package com.reizovrustem.study.catalogue.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
